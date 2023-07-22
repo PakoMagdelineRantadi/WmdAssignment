@@ -1,0 +1,330 @@
+
+                
+				
+				
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none; 
+}
+
+
+header {
+  background-color: #333; 
+  color: #fff; 
+  padding: 10px; 
+}
+figure img {
+      height: 60px;
+      margin-right: auto;
+    }
+
+
+nav ul {
+  list-style: none; 
+}
+
+nav li {
+  display: inline-block; 
+  margin-right: 20px; 
+}
+
+nav a {
+  text-decoration: none; 
+  color: #fff; 
+  padding: 5px 10px; 
+  border-radius: 4px; 
+}
+
+
+form {
+  margin-top: 10px; 
+}
+
+input[type="text"] {
+  padding: 5px; 
+}
+
+button[type="submit"] {
+  padding: 5px 10px; 
+  background-color: #555; 
+  color: #fff; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer;
+}
+
+
+             
+section {
+  background-color: #f7f7f7; 
+  padding: 20px; 
+  text-align: center; 
+}
+
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px; 
+}
+
+ h2 {
+      max-width: 968px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 24px;
+      font-weight: 500;
+      text-transform: uppercase;
+
+ 
+      
+    }
+
+/* Style the image container */
+.image-container {
+   max-width: 968px;
+      margin-right: auto;
+      margin-left: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+      gap: 3rem;
+      margin-top: 2rem
+
+}
+
+
+ article {
+      width: 100%;
+      height: auto;
+      cursor: pointer;
+    }
+
+    article img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    article img:hover {
+      transform: translateY(-10px);
+      transition: 0.2s all linear;
+    }
+
+/* Style the image captions */
+.image-container figcaption {
+  margin-top: 10px; /* Add some space between the image and the caption */
+font-size: 14px; 
+} /* Set the font size for the captions */
+
+
+   footer {
+  background-color: #333; /* Set the background color to dark gray */
+  color: #fff; /* Set the text color to white */
+  padding: 20px; /* Add some padding around the content */
+  text-align: center; /* Center-align the content within the footer */
+}
+
+/* Style the footer heading */
+footer h1 {
+  font-size: 18px; /* Set the font size for the heading */
+  margin-bottom: 10px; /* Add some space between the heading and the links */
+}
+
+/* Style the footer links */
+footer li {
+  display: inline-block; /* Display the list items horizontally */
+  margin-right: 20px; /* Add some space between the links */
+}
+
+footer a {
+  text-decoration: none; /* Remove underline from the links */
+  color: #fff; /* Set the link color to white */
+  font-size: 14px; /* Set the font size for the links */
+}
+
+/* Add some spacing between the links and the heading */
+footer li:first-child {
+  margin-right: 40px;
+}
+
+/* Apply hover effect to the links */
+footer a:hover {
+  text-decoration: underline; /* Underline the links on hover */
+}
+section:nth-child(4) {
+  background-color: #f7f7f7; /* Set the background color to a light gray */
+  padding: 20px; /* Add some padding around the content */
+  text-align: center; /* Center-align the content within the section */
+}
+
+.movie-container {
+  display: flex; /* Use flexbox to create a row of movie items */
+  justify-content: center; /* Center the movie items horizontally */
+  flex-wrap: wrap; /* Allow the movie items to wrap to a new line if needed */
+  margin-top: 20px; /* Add some space between the heading and the movie items */
+}
+
+.movie-item {
+  width: 250px; /* Set a fixed width for the movie items */
+  margin: 10px; /* Add some space between the movie items */
+}
+
+.movie-item img {
+  width: 100%; /* Make the movie images fill the entire width of the container */
+  height: 250px; /* Set a fixed height for the movie images */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border: 1px solid #ccc; /* Add a light gray border around the movie images */
+  border-radius: 5px; /* Add rounded corners to the movie images */
+}
+
+.movie-item h3 {
+  font-size: 18px; /* Set the font size for the movie title */
+  margin-top: 10px; /* Add some space between the image and the title */
+}
+
+.movie-item p {
+  font-size: 14px; /* Set the font size for the movie description */
+  margin-top: 5px; /* Add some space between the title and the description */
+}
+
+.movie-item button {
+  padding: 5px 10px; /* Add padding to the "Watch Now" button */
+  background-color: #555; /* Set the button background color to a darker gray */
+  color: #fff; /* Set the button text color to white */
+  border: none; /* Remove the button border */
+  border-radius: 4px; /* Add rounded corners to the button */
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+  margin-top: 10px; /* Add some space between the description and the button */
+}
+/* ... (previously defined CSS styles) ... */
+
+/* Style the TV Shows section */
+section:nth-child(5) {
+  background-color: #f7f7f7; /* Set the background color to a light gray */
+  padding: 20px; /* Add some padding around the content */
+  text-align: center; /* Center-align the content within the section */
+}
+
+.tv-container {
+  display: flex; /* Use flexbox to create a row of TV show items */
+  justify-content: center; /* Center the TV show items horizontally */
+  flex-wrap: wrap; /* Allow the TV show items to wrap to a new line if needed */
+  margin-top: 20px; /* Add some space between the heading and the TV show items */
+}
+
+.tv-item {
+  width: 250px; /* Set a fixed width for the TV show items */
+  margin: 10px; /* Add some space between the TV show items */
+}
+
+.tv-item img {
+  width: 100%; /* Make the TV show images fill the entire width of the container */
+  height: 250px; /* Set a fixed height for the TV show images */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border: 1px solid #ccc; /* Add a light gray border around the TV show images */
+  border-radius: 5px; /* Add rounded corners to the TV show images */
+}
+
+.tv-item h3 {
+  font-size: 18px; /* Set the font size for the TV show title */
+  margin-top: 10px; /* Add some space between the image and the title */
+}
+
+.tv-item p {
+  font-size: 14px; /* Set the font size for the TV show description */
+  margin-top: 5px; /* Add some space between the title and the description */
+}
+
+.tv-item button {
+  padding: 5px 10px; /* Add padding to the "Watch Now" button */
+  background-color: #555; /* Set the button background color to a darker gray */
+  color: #fff; /* Set the button text color to white */
+  border: none; /* Remove the button border */
+  border-radius: 4px; /* Add rounded corners to the button */
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+  margin-top: 10px; /* Add some space between the description and the button */
+}
+
+.games-apps-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.games-apps-item {
+  flex: 0 0 250px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.games-apps-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.games-apps-item h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.games-apps-item p {
+  font-size: 14px;
+}
+
+.games-apps-item button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.feedback-form {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+}
+
+.feedback-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #555;
+}
